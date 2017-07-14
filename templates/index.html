@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>C4E10</title>
+</head>>
+<body>
+
+{% for ocean in oceans %}
+    <img src="{{ ocean.image }}" alt="">
+    <h3>{{ ocean.title }}</h3>
+    <p>{{ ocean.price }}</p>
+{% endfor %}
+
+
+</body>
+</html>
